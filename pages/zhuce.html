@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入 layui.css -->
+    <link rel="stylesheet" href="//unpkg.com/layui@2.6.8/dist/css/layui.css">
+    <link rel="stylesheet" href="../common-css/header.css">
+    <style>
+        .bd {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+            height: 70px;
+            line-height: 30px;
+        }
+
+        button {
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <span>首页</span>
+        <span>登录</span>
+    </header>
+    <div class="bd">
+        <h1>注册</h1>
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">账号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="title" required lay-verify="required" placeholder="请输入账号"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">账号4-6位，不含特殊字符</div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">密码框</label>
+                <div class="layui-input-inline">
+                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">密码大小写字符数字选三</div>
+            </div>
+            <button type="button" class="layui-btn">注册</button>
+        </form>
+    </div>
+
+    <!-- 引入 layui.js -->
+    <script src="//unpkg.com/layui@2.6.8/dist/layui.js"></script>
+    <script src="../common-js/request.js"></script>
+    <script src="../js/zhuce.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+main {
+    position: relative;
+    top: 200px;
+    border: 1px solid;
+} */
+
+.commodityShow {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.commodityShow>div {
+    width: 100%;
+}
+
+.commodityShow ul {
+    list-style: none;
+    display: flex;
+}
+
+.commodityShow li img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .cell {
+    margin: 10px;
+    width: calc((100% - 100px) / 5);
+    text-align: center;
+}
+
+.container .cell img {
+    width: 80%;
+}
+
+.container .cell p:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.fanhuis,
+.fanhuix {
+    width: 170px;
+    height: 30px;
+}
+
+aside {
+    display: flex;
+}
+
+aside~ul>li>img {
+    margin-left: 3px;
+}
+
+.xt {
+    width: 400px;
+    /* border: 1px solid; */
+    height: 400px;
+    position: relative;
+}
+
+.xt>img {
+    width: 190px;
+    height: 257px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.datu {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border: 1px solid;
+    position: absolute;
+    left: 700px;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+}
+
+.datu>p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    z-index: 3;
+}
+
+.datu>p>img {
+    width: 380px;
+    height: 514px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.mask {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    opacity: .5;
+    display: none;
+}
+
+.p1 {
+    margin-top: 20px;
+}
+
+.p1:last-child {
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    background-color: #F56C6C;
+}
+
+.gwc {
+    position: relative;
+    top: 140px;
+    left: -40px;
+    cursor: pointer;
+}

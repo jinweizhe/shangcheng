@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kinds {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.kinds li {
+    padding: 5px 25px;
+    border-radius: 6px;
+}
+
+.kinds a {
+    color: #222;
+    text-decoration: none;
+}
+
+.kinds li:hover {
+    background-color: purple;
+}
+
+.kinds li:hover a {
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .cell {
+    margin: 10px;
+    width: calc((100% - 100px) / 5);
+    text-align: center;
+}
+
+.container .cell img {
+    width: 80%;
+}
+
+.container .cell p:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}

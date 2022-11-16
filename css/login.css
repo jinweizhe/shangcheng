@@ -1,0 +1,13 @@
+main {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+main button {
+    display: block !important;
+    margin: 0 auto;
+}
+form{
+    margin-top: 250px;
+}

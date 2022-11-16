@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common-css/header.css">
+    <link rel="stylesheet" href="../css/kinds.css">
+    <style>
+        header>span:nth-child(5) {
+            position: absolute;
+            right: 0;
+        }
+        .kinds{
+            margin-top: 150px;
+        }
+        .typeTo{
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span>首页</span>
+        <span>登录</span>
+        <span>注册</span>
+        <span>退出登录</span>
+        <label>购物车</label>
+        <span>注销账号</span>
+    </header>
+    <nav>
+        <p>确定要注销账号吗？</p>
+        <button>确定</button>
+        <button>取消</button>
+    </nav>
+    <!-- 一级分类 -->
+    <ul class="kinds"></ul>
+    <!-- 二级分类 -->
+    <aside>
+        <ul class="typeTo"></ul>
+    </aside>
+    <!-- 二级分类相关数据 -->
+    <main class="container">
+
+    </main>
+    <div class="fhdb">返回顶部</div>
+    <script src="../common-js/request.js"></script>
+    <script src="../common-js/throttle.js"></script>
+    <script src="../js/kinds.js"></script>
+</body>
+
+</html>

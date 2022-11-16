@@ -1,0 +1,133 @@
+header {
+    height: 165px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #fff;
+}
+
+header>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header span,
+header label {
+    cursor: pointer;
+    margin: 0 20px;
+    line-height: 165px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kinds {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.kinds li {
+    cursor: pointer;
+    padding: 5px 25px;
+    border-radius: 6px;
+}
+
+.kinds a {
+    color: #222;
+    text-decoration: none;
+}
+
+.kinds li:hover {
+    background-color: purple;
+}
+
+.kinds li:hover a {
+    color: white;
+}
+
+nav {
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 100;
+    background-color: #fff;
+    display: none;
+}
+
+nav>p {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav>button:nth-child(2),
+nav>button:nth-child(3) {
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+nav>button:nth-child(2) {
+    margin-left: 100px;
+}
+
+nav>button:nth-child(3) {
+    margin-left: 100px;
+}
+
+header>span:nth-child(6) {
+    position: absolute;
+    right: 0;
+}
+
+.js {
+    position: fixed;
+    top: 50px;
+    left: 700px;
+    width: 250px;
+    height: 55px;
+    border: 1px solid;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 3;
+}
+
+.sousuo {
+    margin-left: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.sousuo:focus {
+    outline: none;
+}
+
+.xj1 {
+    position: absolute;
+    top: -2px;
+    width: 50px;
+    height: 58px;
+    border-radius: 0 20px 20px 0;
+}

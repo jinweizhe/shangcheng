@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情</title>
+    <link rel="stylesheet" href="../common-css/header.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <style>
+        header>span:nth-child(6) {
+            position: absolute;
+            right: 0;
+        }
+        main{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span>首页</span>
+        <span>登录</span>
+        <span>注册</span>
+        <span>退出登录</span>
+        <label>购物车</label>
+        <span>注销账号</span>
+    </header>
+    <nav>
+        <p>确定要注销账号吗？</p>
+        <button>确定</button>
+        <button>取消</button>
+    </nav>
+    <main>
+        <!-- 商品详情展示  commodity:商品 -->
+        <section class="commodityShow"></section>
+        <section class="recommend">
+            <h2>相似商品推荐</h2>
+            <!-- 推荐商品展示区域 -->
+            <div class="container"></div>
+        </section>
+    </main>
+    <script src="../common-js/queryString.js"></script>
+    <script src="../common-js/request.js"></script>
+    <script src="../js/detail.js"></script>
+    <script src="../js/tianjiagwc.js"></script>
+</body>
+
+</html>

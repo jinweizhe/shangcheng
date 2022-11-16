@@ -1,0 +1,64 @@
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .cell {
+    margin: 10px;
+    width: calc((100% - 100px) / 5);
+    text-align: center;
+}
+
+.container .cell img {
+    width: 80%;
+}
+
+.container .cell p:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+h1 {
+    height: 50px;
+    width: 100%;
+}
+
+.typeTo {
+    position: fixed;
+    width: 100px;
+    margin-left: 70px;
+    list-style: none;
+    display: flex;
+    top: 20%;
+    border-radius: 20px;
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.typeTo>li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fhdb {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    background-color: purple;
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
